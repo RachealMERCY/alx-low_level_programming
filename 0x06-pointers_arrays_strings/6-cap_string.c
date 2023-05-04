@@ -18,7 +18,8 @@ if (s[0] >= 97 && s[0] <= 122)
 		{
 s[0] = s[0] - 32;
 }
-if (s[string_count] == ' ' || s[string_count] == '\t' || s[string_count] == '\n'
+if (s[string_count] == ' ' || s[string_count] == '\t'
+|| s[string_count] == '\n'
 || s[string_count] == ',' || s[string_count] == ';' || s[string_count] == '.'
 || s[string_count] == '.' || s[string_count] == '!' || s[string_count] == '?'
 || s[string_count] == '"' || s[string_count] == '(' || s[string_count] == ')'
